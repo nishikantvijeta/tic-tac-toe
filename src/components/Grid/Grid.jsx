@@ -22,7 +22,7 @@ function Grid({numberofCards}){
     function reset(){
         setTurn(true);
         setWinner(null)
-        setBoard(Array(numberofCards).fill(" "))
+        setBoard(Array(numberofCards).fill(""))
 
 
     }
